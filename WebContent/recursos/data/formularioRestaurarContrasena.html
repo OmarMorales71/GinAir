@@ -1,0 +1,23 @@
+<form action="restaurarContrasena" method="POST" onsubmit="return validarPassword()">
+    <table>
+        <tr>
+            <td>Contrase&ntilde;a nueva</td>
+            <td>
+                <input type="password" name="newPassword" id="password1">
+                <div class="messageError">
+                    <p id="longitudContrasena"></p>
+                </div>
+            </td>
+            <td>Confirmar contrase&ntilde;a</td>
+            <td>
+                <input type="password" id="passwordConfirm">
+                <div class="messageError">
+                    <p id="confirmarContrasena"></p>
+                </div>
+            </td>
+
+        </tr>
+
+    </table>
+    <input type="submit" id="submit" class= "restore-password" value='Restaurar Contrase&ntilde;a'>
+</form>

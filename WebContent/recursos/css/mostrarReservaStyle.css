@@ -1,0 +1,151 @@
+.reserva-confirmada-contenedor {
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+	color: #d6d6d6;
+	display: block;
+	margin: 0;
+	padding: 30px;
+	background-color: #323A45;
+}
+
+.reserva-confirmada-contenedor h1 {
+	margin: 10px 0 20px 6%;
+	border-bottom: 2px solid #00B895;
+	width: 220px;
+	text-align: center;
+	font-size: 1.4rem;
+}
+
+table {
+	background-color: white;
+	text-align: center;
+	width: 80%;
+	border-collapse: collapse;
+	margin: 0 auto 10px auto;
+}
+
+th, td {
+	padding: 20px;
+}
+
+thead {
+	background-color: #9cdc09;
+	border-bottom: 5px solid #95b805;
+	color: white;
+}
+
+tr:nth-child(even) {
+	background-color: #ddd;
+}
+
+tbody {
+	color: black;
+}
+
+.vuelos-seleccionados {
+	width: 65%;
+	margin: auto;
+}
+
+.datos-reserva {
+	margin: 10px 0 50px 6%;
+}
+
+.datos-reserva h3 {
+	padding: 30px 0 10px 0;
+}
+
+.datos-reserva h3 span {
+	font-size: 1.1em;
+	background: #386c0e;
+	padding: 5px 10px;
+	font-weight: bold;
+}
+
+.datos-reserva h2 b {
+	font-size: 1.1em;
+}
+
+.vuelos-seleccionados h4 {
+	border-bottom: 2px solid #00B895;
+	width: 170px;
+	text-align: center;
+}
+
+.reserva-confirmada-contenedor .regresarInicio {
+	text-decoration: none;
+	margin-top: 15px;
+	padding: 10px;
+	font-weight: 600;
+	font-size: 20px;
+	color: #ffffff;
+	background-color: #93b91f;
+	border-radius: 6px;
+	border: 2px solid #5e8212;
+	margin: auto;
+	width: 90%;
+	min-width: 200px;
+	display: block;
+	cursor: pointer;
+}
+
+.reserva-confirmada-contenedor .regresarInicio:hover {
+	color: #f5f6fa;
+	background-color: #00B895;
+	border: 2px solid #0f9262;
+	transition: all 0.3s;
+}
+
+.modificaciones-vuelo {
+	text-decoration: none;
+	margin: auto;
+	padding: 10px;
+	font-weight: 600;
+	font-size: 20px;
+	color: #ffffff;
+	background-color: #93b91f;
+	border-radius: 6px;
+	border: 2px solid #5e8212;
+	margin: auto;
+	width: 38px;
+	display: block;
+	cursor: pointer;
+	text-align: center;
+}
+
+.modificaciones-vuelo:hover {
+	color: #f5f6fa;
+	background-color: #00B895;
+	border: 2px solid #0f9262;
+	transition: all 0.3s;
+}
+
+.equipajeExtra-container{
+	padding: 20px 0;
+}
+
+
+.formularioModificarEquipaje .submit-container {
+	text-decoration: none;
+	display:block;
+	margin:auto;
+	padding: 10px;
+	font-weight: 600;
+	font-size: 20px;
+	color: #ffffff;
+	background-color: #93b91f;
+	border-radius: 6px;
+	border: 2px solid #5e8212;
+	width: 50%;
+	min-width: 300px;
+	text-align:center;
+	
+	cursor:pointer;
+}
+
+.formularioModificarEquipaje .submit-container:hover {
+	color: #f5f6fa;
+	background-color: #00B895;
+	border: 2px solid #0f9262;
+	transition: all 0.3s;
+}

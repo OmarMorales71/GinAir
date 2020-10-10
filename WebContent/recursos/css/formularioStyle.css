@@ -1,0 +1,96 @@
+.reserva-formulario-contenedor {
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+	color: #d6d6d6;
+	display: block;
+	margin: 0;
+	padding: 30px;
+	background-color: #323A45;
+}
+
+.reserva-formulario-contenedor h1 {
+	margin: 10px 0 20px 6%;
+	border-bottom: 2px solid #00B895;
+	width: 300px;
+	text-align: center;
+	font-size: 1.4rem;
+}
+
+.input-container {
+	background-color: #59615e;
+	margin-left: 6%;
+	width: 300px;
+	height: 380px;
+}
+
+body .reserva-formulario-contenedor .input-container label, body .reserva-formulario-contenedor .input-container input
+	{
+	display: block;
+}
+
+input {
+	border-radius: 50px;
+	height: 40px;
+	width: 275px;
+	margin: auto;
+	text-align: center;
+	font-size: 1.2rem;
+}
+
+body .reserva-formulario-contenedor .input-container label {
+	padding: 25px 0 5px 20px;
+}
+
+body .reserva-formulario-contenedor .input-container .submit {
+	text-decoration: none;
+	padding: 10px;
+	font-weight: 600;
+	font-size: 20px;
+	color: #ffffff;
+	background-color: #93b91f;
+	border-radius: 6px;
+	border: 2px solid #5e8212;
+	width: 275px;
+	min-width: 275px;
+	margin-top: 25px;
+	height: 140px;
+	cursor:pointer;
+}
+
+body .reserva-formulario-contenedor .input-container .submit:hover {
+	color: #f5f6fa;
+	background-color: #00B895;
+	border: 2px solid #0f9262;
+	transition: all 0.3s;
+	
+}
+
+.messageError {
+	position: absolute;
+	color: #ffaa97;
+	padding: 0 0 0 20px;
+}
+
+.notFound {
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: 40%;
+	background-color: brown;
+	padding: 20px;
+	width: 35%;
+	min-width: 10%;
+	text-align: center;
+}
+
+.link-registro-container {
+	margin: auto;
+	padding: 10px;
+	font-size: 0.8rem;
+	text-align: center;
+}
+
+.link-registro {
+	color: aquamarine;
+	text-decoration: none;
+}

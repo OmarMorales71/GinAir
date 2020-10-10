@@ -1,0 +1,103 @@
+.formulario-buscador-vuelos .buscador-vuelos {
+	margin: 0 auto 4px auto;
+	width: 80%;
+}
+
+table {
+	background-color: white;
+	text-align: center;
+	width: 80%;
+	border-collapse: collapse;
+	margin: 0 auto 10px auto;
+}
+
+th, td {
+	padding: 20px;
+}
+
+thead {
+	background-color: #9cdc09;
+	border-bottom: 5px solid #95b805;
+	color: white;
+}
+
+h5 {
+	text-align: center;
+	font-size: 1.5rem;
+	margin: 20px auto;
+	background: red;
+	color: white;
+	width: 50%;
+	padding: 10px;
+}
+
+tr:nth-child(even) {
+	background-color: #ddd;
+}
+
+tr:hover td {
+	background-color: #b7db63;
+	color: black;
+}
+
+table #ContenedorVuelosIda .radioSeleccionado {
+	background-color: #183ba5;
+	color: white;
+}
+
+table #ContenedorVuelosRegreso .radioSeleccionado {
+	background-color: #183ba5;
+	color: white;
+}
+
+.formulario-buscador-vuelos .submit {
+	text-decoration: none;
+	margin: 20px 0 30px 75%;
+	padding: 10px;
+	font-weight: 600;
+	font-size: 20px;
+	color: #ffffff;
+	background-color: #93b91f;
+	border-radius: 6px;
+	border: 2px solid #5e8212;
+	width: 15%;
+	min-width: 86px;
+}
+
+.formulario-buscador-vuelos .submit:hover {
+	color: #f5f6fa;
+	background-color: #183ba5;
+	border: 2px solid #0f9262;
+	transition: all 0.3s;
+}
+
+.regresar{
+	text-decoration: none;
+	text-align:center;
+	margin: 20px 0 30px 10%;
+	padding: 10px;
+	font-weight: 600;
+	font-size: 20px;
+	color: #ffffff;
+	background-color: #93b91f;
+	border-radius: 6px;
+	border: 2px solid #5e8212;
+	width: 15%;
+	min-width: 86px;
+	cursor:pointer;
+}
+
+.regresar:hover{
+	color: #f5f6fa;
+	background-color: #183ba5;
+	border: 2px solid #0f9262;
+	transition: all 0.3s;
+}
+
+#ContenedorVuelosIda {
+	cursor: pointer;
+}
+
+#ContenedorVuelosRegreso {
+	cursor: pointer;
+}

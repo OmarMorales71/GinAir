@@ -1,0 +1,126 @@
+.registro-cliente {
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+	color: #d6d6d6;
+	display: block;
+	margin: 0;
+	padding: 30px;
+	background-color: #323A45;
+}
+
+table {
+	background-color: white;
+	text-align: center;
+	width: 80%;
+	border-collapse: collapse;
+	margin: 0 auto 10px auto;
+}
+
+th, td {
+	padding: 20px;
+}
+
+thead {
+	background-color: #9cdc09;
+	border-bottom: 5px solid #95b805;
+	color: white;
+}
+
+tr:nth-child(even) {
+	background-color: #ddd;
+}
+
+tbody {
+	color: black;
+}
+
+.vuelos-seleccionados {
+	width: 40%;
+	margin: auto;
+}
+
+.messageError {
+	font-size: .7rem;
+	height: 20px;
+}
+
+.formulario-cliente .submit {
+	text-decoration: none;
+	padding: 10px;
+	font-weight: 600;
+	font-size: 20px;
+	color: #ffffff;
+	background-color: #93b91f;
+	border-radius: 6px;
+	border: 2px solid #5e8212;
+	width: 15%;
+	min-width: 86px;
+}
+
+.pasajero-head {
+	background: #00B895;
+	padding: 20px;
+	margin: 20px 0 5px 10%;
+	width: 350px;
+}
+
+.pasajero-head h5 {
+	font-size: 1.4rem;
+	margin: auto;
+	text-align:center;
+	color: white;
+}
+
+.formulario-cliente .submit:hover {
+	color: #f5f6fa;
+	background-color: #00B895;
+	border: 2px solid #0f9262;
+	transition: all 0.3s;
+}
+
+.hidden {
+	background: #323A45;
+}
+
+.vuelos-seleccionados h4 {
+	margin: 10px 0 20px 6%;
+	border-bottom: 2px solid #00B895;
+	width: 220px;
+	text-align: center;
+	font-size: 1.2rem;
+}
+
+.confirmacion-contenedor {
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+	color: #d6d6d6;
+	display: block;
+	margin: 0;
+	padding: 30px;
+	background-color: #323A45;
+}
+
+.formulario-cliente .datos-cliente-confirmar{
+	width:640px;
+}
+
+.confirmacion-contenedor .pasajero-head{
+	margin:20px 0 5px 322px;
+}
+
+.confirmacion-contenedor .vuelos-seleccionados{
+	width:50%;
+}
+
+.vuelos-seleccionados .tabla-vuelos-seleccionados-equipaje{
+	width:640px;
+}
+
+.confirmacion-contenedor form table .submit{
+	width:200px;
+	min-width: 200px;
+}
+
+.datos-cliente-confirmar .hidden{
+	background-color: #323A45;
+}
